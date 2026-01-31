@@ -1,12 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const toggleDark = document.getElementById("toggleDark");
-    const toggleLang = document.getElementById("toggleLang");
+    const darkButton = document.getElementById("darkButton");
+    const langButton = document.getElementById("langButton");
 
-    toggleDark.addEventListener("click", () => {
+    // ダーク/ライト切替
+    darkButton.addEventListener("click", () => {
         document.documentElement.classList.toggle("dark");
     });
 
-    toggleLang.addEventListener("click", () => {
+    // EN/JP切替
+    langButton.addEventListener("click", () => {
         const jpElements = document.querySelectorAll("[data-lang='jp']");
         const enElements = document.querySelectorAll("[data-lang='en']");
         if (jpElements[0].style.display !== "none") {
