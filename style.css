@@ -55,6 +55,16 @@ button:hover {
     background-color: #135edb;
 }
 
+/* Mod検索ボックス */
+#modSearch {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
 /* カードグリッド */
 .container {
     padding: 25px;
