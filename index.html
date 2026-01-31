@@ -19,59 +19,23 @@
 </header>
 <nav class="container">
     <a href="index.html" data-lang="en">Home</a>
-    <a href="mods.html" data-lang="en">Mods & Settings</a>
-    <a href="tutorials.html" data-lang="en">Tutorial Videos</a>
+    <a href="index.html#mods" data-lang="en">Mods & Settings</a>
+    <a href="index.html#videos" data-lang="en">Tutorial Videos</a>
 
     <a href="index.html" data-lang="jp" style="display:none">ホーム</a>
-    <a href="mods.html" data-lang="jp" style="display:none">Mod & 設定</a>
-    <a href="tutorials.html" data-lang="jp" style="display:none">チュートリアル動画</a>
+    <a href="index.html#mods" data-lang="jp" style="display:none">Mod & 設定</a>
+    <a href="index.html#videos" data-lang="jp" style="display:none">チュートリアル動画</a>
 </nav>
 
 <div class="container">
-    <h2 data-lang="en">Recommended Mods</h2>
-    <h2 data-lang="jp" style="display:none">おすすめMod</h2>
-    <div class="card-grid">
-        <!-- Modカードサンプル -->
-        <div class="card">
-            <img src="assets/images/mod1.png" alt="Mod1">
-            <h3 data-lang="en">Example Mod 1</h3>
-            <h3 data-lang="jp" style="display:none">Example Mod 1</h3>
-            <p data-lang="en">Some description of Mod 1</p>
-            <p data-lang="jp" style="display:none">Mod1の簡単な説明</p>
-            <a href="https://www.mediafire.com/file/EXAMPLE1/example-mod1.jar/file" target="_blank">
-                <button data-lang="en">Download</button>
-                <button data-lang="jp" style="display:none">ダウンロード</button>
-            </a>
-        </div>
-
-        <div class="card">
-            <img src="assets/images/mod2.png" alt="Mod2">
-            <h3 data-lang="en">Example Mod 2</h3>
-            <h3 data-lang="jp" style="display:none">Example Mod 2</h3>
-            <p data-lang="en">Some description of Mod 2</p>
-            <p data-lang="jp" style="display:none">Mod2の簡単な説明</p>
-            <a href="https://www.mediafire.com/file/EXAMPLE2/example-mod2.jar/file" target="_blank">
-                <button data-lang="en">Download</button>
-                <button data-lang="jp" style="display:none">ダウンロード</button>
-            </a>
-        </div>
-
-        <!-- 一括ダウンロード -->
-        <div class="card">
-            <img src="assets/images/mods-all.png" alt="All Mods">
-            <h3 data-lang="en">Download All Mods</h3>
-            <h3 data-lang="jp" style="display:none">全てのModをダウンロード</h3>
-            <p data-lang="en">All recommended mods in one ZIP file</p>
-            <p data-lang="jp" style="display:none">推奨ModをまとめたZIPファイル</p>
-            <a href="https://www.mediafire.com/file/EXAMPLE_ALL/mods-all.zip/file" target="_blank">
-                <button data-lang="en">Download ZIP</button>
-                <button data-lang="jp" style="display:none">ZIPをダウンロード</button>
-            </a>
-        </div>
+    <h2 id="mods" data-lang="en">Recommended Mods</h2>
+    <h2 id="mods" data-lang="jp" style="display:none">おすすめMod</h2>
+    <div class="card-grid" id="modContainer">
+        <!-- JSONで自動生成 -->
     </div>
 
-    <h2 data-lang="en">Tutorial Videos</h2>
-    <h2 data-lang="jp" style="display:none">チュートリアル動画</h2>
+    <h2 id="videos" data-lang="en">Tutorial Videos</h2>
+    <h2 id="videos" data-lang="jp" style="display:none">チュートリアル動画</h2>
     <div class="card-grid">
         <div class="card">
             <img src="assets/images/video1.png" alt="Video 1">
