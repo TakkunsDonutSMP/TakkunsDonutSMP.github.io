@@ -14,5 +14,13 @@
     "description_jp": "Mod2の簡単な説明",
     "image": "assets/images/mod2.png",
     "download": "https://www.mediafire.com/file/EXAMPLE2/example-mod2.jar/file"
+  },
+  {
+    "name_en": "Download All Mods",
+    "name_jp": "全てのModをダウンロード",
+    "description_en": "All recommended mods in one ZIP file",
+    "description_jp": "推奨ModをまとめたZIPファイル",
+    "image": "assets/images/mods-all.png",
+    "download": "https://www.mediafire.com/file/EXAMPLE_ALL/mods-all.zip/file"
   }
 ]
