@@ -1,4 +1,3 @@
-// ダークモード切替
 document.addEventListener("DOMContentLoaded", () => {
     const toggleDark = document.getElementById("toggleDark");
     const toggleLang = document.getElementById("toggleLang");
@@ -7,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
         document.documentElement.classList.toggle("dark");
     });
 
-    // 言語切替
     toggleLang.addEventListener("click", () => {
         const jpElements = document.querySelectorAll("[data-lang='jp']");
         const enElements = document.querySelectorAll("[data-lang='en']");
