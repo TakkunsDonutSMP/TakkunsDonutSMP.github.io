@@ -1,19 +1,19 @@
 [
   {
-    "name_en": "Example Mod 1",
-    "name_jp": "Example Mod 1",
-    "description_en": "Some description of Mod 1",
-    "description_jp": "Mod1の簡単な説明",
+    "name_en": "AppleSkin",
+    "name_jp": "AppleSkin",
+    "description_en": "Food/hunger-related HUD improvements",
+    "description_jp": "食料/空腹関連のHUDの改善",
     "image": "assets/images/mod1.png",
-    "download": "https://www.mediafire.com/file/EXAMPLE1/example-mod1.jar/file"
+    "download": "https://modrinth.com/mod/appleskin"
   },
   {
-    "name_en": "Example Mod 2",
-    "name_jp": "Example Mod 2",
-    "description_en": "Some description of Mod 2",
-    "description_jp": "Mod2の簡単な説明",
+    "name_en": "BadOptimizations",
+    "name_jp": "BadOptimizations",
+    "description_en": "Optimization mod that focuses on things other than rendering",
+    "description_jp": "レンダリング以外のことに重点を置いた最適化MOD",
     "image": "assets/images/mod2.png",
-    "download": "https://www.mediafire.com/file/EXAMPLE2/example-mod2.jar/file"
+    "download": "https://modrinth.com/mod/badoptimizations"
   },
   {
     "name_en": "Download All Mods",
