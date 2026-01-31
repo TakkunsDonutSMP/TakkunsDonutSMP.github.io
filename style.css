@@ -1,0 +1,65 @@
+/* 共通スタイル */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #1a73e8;
+}
+
+html.dark {
+    --bg-color: #1e1e1e;
+    --text-color: #f0f0f0;
+    --link-color: #8ab4f8;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--bg-color);
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 20px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.download-list a {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--link-color);
+}
